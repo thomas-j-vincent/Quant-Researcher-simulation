@@ -12,7 +12,7 @@ print ("os.getcwd() returns an object of type {0}".format(type(cwd)))
 
 # copy the filepath
 
-os.chdir ("C:/Users/thoma/OneDrive/Documents/GitHub/Quant-Researcher-simulation")
+os.chdir ("C:/Users/thoma/OneDrive/Documents/GitHub/Quant-Researcher-simulation/taskOne")
 
 
 # let's jump into task 1

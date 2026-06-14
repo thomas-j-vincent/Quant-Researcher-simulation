@@ -9,7 +9,7 @@ from datetime import datetime
 from scipy import stats
 import pandas as pd
 
-filePath = "C:/Users/thoma/OneDrive/Documents/GitHub/Quant-Researcher-simulation/input.csv" 
+filePath = "C:/Users/thoma/OneDrive/Documents/GitHub/Quant-Researcher-simulation/taskOne/input.csv" 
 #could've used r and then backslashes but this looks prettier
 
 colour = "g"
