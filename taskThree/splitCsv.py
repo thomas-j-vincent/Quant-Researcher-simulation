@@ -28,7 +28,7 @@ lineCountTrain = (lineCount//100)* 80
 print(lineCountTrain)
 
 cols = ["customer_id", "credit_lines_outstanding", "loan_amt_outstanding",
-        "total_debt_outstanding", "income", "years_employed", "fico_score", "default"]
+        "total_debt_outstanding", "income", "years_employed", "fico_score"]
 
 train_rows = []
 test_rows = []
@@ -38,10 +38,10 @@ with open(filePath, "r") as file:
     next(reader)
     for i, row in enumerate(reader): 
         if i < lineCountTrain:
-            train_rows.append(row)
+            train_rows.append(row[:-1])
         else:
-            test_rows.append(row)
+            test_rows.append(row[:-1])
 
-pd.DataFrame(train_rows, columns=cols).to_csv("train.csv", index=False)
-pd.DataFrame(test_rows, columns=cols).to_csv("test.csv", index=False)
-print("Saved results to csv")    
+pd.DataFrame(train_rows, columns=cols).to_csv("C:/Users/thoma/OneDrive/Documents/GitHub/Quant-Researcher-simulation/taskThree/train.csv", index=False)
+pd.DataFrame(test_rows, columns=cols).to_csv("C:/Users/thoma/OneDrive/Documents/GitHub/Quant-Researcher-simulation/taskThree/test.csv", index=False)
+print("Saved results to csv")
