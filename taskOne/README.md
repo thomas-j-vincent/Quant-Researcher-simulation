@@ -38,7 +38,7 @@ Analyze the data to estimate the purchase price of gas at any date in the past a
 
 Your code should take a date as input and return a price estimate.
 
-Try to visualize the data to find patterns and consider what factors might cause the price of natural gas to vary. This can include looking at months of the year for seasonal trends that affect the prices, but market holidays, weekends, and bank holidays need not be accounted for. Submit your completed code below.
+Try to visualize the data to find patterns and consider what factors might cause the price of natural gas to vary. This can include looking at months of the year for seasonal trends that affect the prices, but market holidays, weekends, and bank holidays need not be accounted for.
 
 
 
